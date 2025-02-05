@@ -1,0 +1,56 @@
+body {
+    margin: 10px;
+    padding: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, nav, .main-content, .sidebar, footer {
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 80%;
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 40px;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: aqua;
+}
+
+.main-content {
+    background-color: aquamarine;
+}
+
+.sidebar {
+    background-color: rgb(226, 139, 8);
+}
+
+footer {
+    background-color: blue;
+}

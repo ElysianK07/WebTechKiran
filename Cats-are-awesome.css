@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+    font: 14px monospace;
+    max-width: 600px;
+    padding-left: 30%;
+    padding-top: 1%;
+}
+.Box1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 5%;
+
+}
+.Box2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 5%;
+
+}.Box3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 5%;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}

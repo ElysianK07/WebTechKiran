@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: seashell;
+    font: 14px monospace;
+    font-size: large;
+    padding: 1em ;
+    margin: 1em auto;
+    max-width: 45em;
+    
+}
+a{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+dt{
+    color: chartreuse;
+}
+
+dl{
+    font-size: 14px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+img {
+    height:200px ;
+    width:200px ;
+}
+
+.container{
+    padding-left:235px ;
+    padding-right:320px; 
+}

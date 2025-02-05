@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(37, 36, 36);
+    color: beige;
+    font: 16px monospace;
+    padding: 635px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.container {
+    border: 2px solid beige ;
+    border-radius: 33px;
+    padding-top: 20px;
+    padding-Bottom: 20px;
+    margin: 20px;
+}
